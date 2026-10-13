@@ -130,6 +130,7 @@ ul li a:hover {
   justify-items: center;
     margin-top: -5px;
 }
+
 .aboutme .container {
       display: grid;
     grid-template-rows:auto;
@@ -168,6 +169,7 @@ ul li a:hover {
     align-items: center;
     padding: 20px 20px;
     margin-top: 300px;
+    margin-bottom: 300px;
    
     
 }
@@ -253,5 +255,66 @@ align-items: center;
     width: 70px;
     text-align: center;
 
+}
+
+
+.contact {
+    align-items: center;
+    background-color: #0099ff;
+    padding: 30px;
+    max-width: 500px;
+    justify-content: center;
+    margin-top: 300px;
+    background-color: white;
+    padding: 40px;
+ border-radius: 10px;
+ margin: 0 auto;
+    box-shadow: 5px 5px 2px 2px black;    
+
+}
+
+
+.contact h1 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+.contact .formss {
+   display: flex;
+   justify-content: center;
+}
+
+
+.contact .formss .email-input {
+    border: 1px solid black;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.contact .formss .message-input {
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact .formss .submit-button {
+    background-color: blue;
+    padding: 12px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border-radius: 2px;
+    color: white;
 }
 
