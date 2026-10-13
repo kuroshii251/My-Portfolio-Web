@@ -73,14 +73,25 @@ ul li a:hover {
     padding: 50px;
     display: grid;
     justify-content: space-between;
+    height: 70vh;
     grid-template-columns: auto auto auto;
+    margin-bottom: 100px;
 }
+
 
 
 
 .hero h1 {
     font-size: 60px;
+    margin: 0;
+    padding: 0;
 }
+
+.hero p {
+    margin: 0;
+    padding: 0;
+}
+
 
 .image {
     background-color: black;
@@ -102,7 +113,7 @@ ul li a:hover {
 }
 
 .readmore {
-    padding: 10px 30px;
+    padding: 15px 30px;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -110,3 +121,137 @@ ul li a:hover {
     background-color: blue;
     border-radius: 5px;
 }
+
+.aboutme {
+    align-items: center;
+    padding: 30px;
+    background-color: #0099ff;
+    justify-content: space-between;
+  justify-items: center;
+    margin-top: -5px;
+}
+.aboutme .container {
+      display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.aboutme h1 {
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+
+}
+
+.aboutme p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+
+.aboutme a {
+    text-decoration: none;
+    background-color: rgb(41, 3, 255);
+    padding: 15px;
+    top: 39px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5%;
+}
+
+
+.showproject {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 300px;
+   
+    
+}
+
+.showproject h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.showproject h2 {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.showproject p {
+    max-width: 300px;
+    font-size: 12px;
+    color: black;
+}
+
+
+.showproject .container {
+    display: grid;
+    grid-template-columns: 3;
+    justify-items: center;
+}
+
+.showproject .card {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 1%;
+    box-shadow: 5px 5px 2px 2px black;
+
+}
+
+
+.showproject .card .content {
+ display: block;
+ clear: both;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.showproject  .card .content img {
+width: 300px;
+height:300px;
+margin-left: 10px;
+object-fit: cover;
+   
+}
+
+
+.showproject .buttonss {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 10px;
+
+}
+
+.showproject .buttonss1 {
+    width: 70px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+        border-color: black;
+
+    border: 1px solid black;
+
+
+}
+
+
+.showproject .buttonss2 {
+        width: 70px;
+    height: 10px;
+align-items: center;
+    background-color: blue;
+    width: 70px;
+    text-align: center;
+
+}
+
