@@ -21,14 +21,14 @@ body {
     padding: 40px;
 }
 
-ul {
+ ul {
     list-style: none;
     display: flex;
     float: right;
 
 }
 
-ul li {
+ ul li {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -39,18 +39,22 @@ ul li {
 
 }
 
-ul li a {
+ ul li a {
     text-decoration: none;
     color: black;
+        padding: 10px;
+
 
 }
 
 ul li a:hover {
     background-color: blue;
     color: white;
-    padding: 10px;
     border-radius: 10px;
 }
+
+
+
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
@@ -110,6 +114,9 @@ ul li a:hover {
 
 .hero p {
     font-size: 20px;
+    width: 600px; 
+    margin-top: 10px;
+     margin-bottom: 30px;
 }
 
 .hero .readmore {
@@ -149,6 +156,8 @@ ul li a:hover {
     font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    color: white;
+    width: 700px;
     margin-bottom: 50px;
 }
 
@@ -161,6 +170,20 @@ ul li a:hover {
     font-weight: 500;
     color: white;
     border-radius: 5%;
+}
+
+.aboutme .pictures {
+    background-color: white;
+      border-radius: 10%;
+      width: 400px;
+}
+
+.aboutme .pictures img {
+    width:"20px";
+    height:"20px";
+    margin-left: 40px;
+     padding: 25px; 
+    border-radius: 10%;
 }
 
 
@@ -250,6 +273,15 @@ margin:  0 auto;
 
 }
 
+.nav-hamburger-lists {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+
 
 .showproject .buttonss2 {
      padding: 10px 30px;
@@ -272,7 +304,7 @@ justify-items: center;
          align-items: center;
           justify-content: center;
       padding: 30px;
-      height: 100vh;
+      height: 150vh;
    
 
 }
@@ -339,20 +371,17 @@ justify-items: center;
 
 }
 
-.sand {
-    background-color: #fffce9;
-    padding: 10px;
-    border-top-left-radius: 15px;
-    margin-top: -20px;
 
+.wave {
+    margin-top: -240px;
 }
-
 
 .footer {
     background-color: #88825a ;
     padding: 50px;
     width: auto;
-    height: 30vh;
+    margin-top: -50px;
+    height: 50vh;
     color: black;
     
 
@@ -385,3 +414,185 @@ justify-items: center;
     list-style: none;
 }
 
+
+@media (max-width:768px) {
+
+    
+  ul li a {
+    display: none;
+  }
+  
+  .nav-hamburger-lists {
+    display: none;
+}
+
+.nav-hamburger-lists a:hover {
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+
+}
+.nav-hamburger-lists.active {
+    display: flex;
+}
+
+.hamburger {
+    display: flex;
+    cursor: pointer;
+}
+
+.hamburger .menuu {
+    display: block;
+
+}
+
+.hamburger .closes {
+    display: none;
+}
+
+.hamburger.active .menuu {
+    display: none;
+}
+
+.hamburger.active .closes {
+    display: block;
+}
+
+
+
+.hero {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    height: 120vh;
+    grid-template-columns: none;
+}
+
+
+.hero p {
+    font-size: 20px;
+    width: 275px; 
+}
+
+.hero .image {
+    width: 280px;
+    height: 280px;
+    margin-top: 100px;
+}
+
+.hero .images {
+    width: 350px;
+    
+}
+.nav-hamburger-lists{
+    position: relative;
+    background-color: rgb(220, 220, 220);
+    padding: 30px 20px;
+    flex-direction: column;
+
+}
+
+.nav-hamburger-lists a {
+
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+        padding: 20px;
+
+}
+
+
+
+
+
+.aboutme {
+    justify-content: center;
+}
+
+.aboutme .container {
+    justify-items: center;
+    
+}
+
+
+.aboutme .pictures {
+     padding: 20px 0px;
+     margin-top: 50px;
+         margin-right: 100px;
+
+     
+}
+
+.aboutme .pictures img {
+    margin-right: 100px;
+  
+    display: block;
+
+}
+
+
+
+.aboutme p {
+    font-size: 15px;
+    color: white;
+     width: 300px;
+}
+
+
+.showproject .container {
+    grid-template-columns: auto;
+    justify-items: center;
+    padding: 2;
+}
+
+.showproject .card {
+    margin-top: 50px;
+
+}
+
+.showproject h1 {
+    margin: 0;
+}
+
+.aboutme .container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.contact .formss .email-input {
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.contact .formss .message-input {
+    padding: 20px;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer {
+        height: 80vh;
+
+
+}
+
+.footer .content {
+    grid-template-columns: none;
+    margin-top: 40px;
+
+}
+
+.wave {
+    margin-top: -150px;
+}
+
+.footer p {
+    width: 320px;
+}
+    
+}
